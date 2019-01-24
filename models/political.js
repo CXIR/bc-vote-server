@@ -23,7 +23,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull : false
     },
     color : {
-      type      : DataTypes.BIGINT,
+      type      : DataTypes.STRING,
       allowNull : false
     },
     picture : {

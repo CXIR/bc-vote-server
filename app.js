@@ -11,7 +11,7 @@ var app = express();
 var models = require('./models');
 
 models.sequelize.sync(
-                        { force : true }
+                        //{ force : true }
                       );
 
 // view engine setup
